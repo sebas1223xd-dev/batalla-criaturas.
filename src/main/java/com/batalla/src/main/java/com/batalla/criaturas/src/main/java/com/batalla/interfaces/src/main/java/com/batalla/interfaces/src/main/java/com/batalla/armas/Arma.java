@@ -11,3 +11,14 @@ public class Arma {
         return daño;
     }
 }
+public class Arma {
+    private int dañoAdicional;
+
+    public Arma(int dañoAdicional) {
+        this.dañoAdicional = dañoAdicional;
+    }
+
+    public int getDañoAdicional() {
+        return dañoAdicional;
+    }
+}
