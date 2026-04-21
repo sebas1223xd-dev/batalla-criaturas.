@@ -11,3 +11,18 @@ public class Main {
         Batalla.simular(d, m);
     }
 }
+public class Main {
+    public static void main(String[] args) {
+
+        Dragon dragon = new Dragon("Smaug", 100, 20);
+        Guerrero guerrero = new Guerrero("Aragorn", 90, 15);
+        Mago mago = new Mago("Gandalf", 80, 18);
+
+        guerrero.equiparArma(new Arma(5));
+
+        dragon.volar();          // uso interfaz
+        mago.lanzarHechizo();   // uso interfaz
+
+        Batalla.pelear(dragon, guerrero);
+    }
+}
