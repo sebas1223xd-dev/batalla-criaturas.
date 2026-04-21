@@ -4,3 +4,7 @@ public interface Volador {
     void volar();
     void aterrizar();
 }
+public interface Volador {
+    void volar();
+    void aterrizar();
+}
